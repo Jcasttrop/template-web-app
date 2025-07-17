@@ -11,3 +11,9 @@ In table we're using shadcn table, behind of that is tankstank table  https://ui
 In forms were using shadcn form, behind of that is React hook form https://ui.shadcn.com/docs/components/form
 lucide https://lucide.dev/icons/
 tank stank query https://tanstack.com/query/latest 
+
+---
+
+Queda hecho para que la base de datos se conecte con supabase, en utils/supabase.sever queda un SupabaseClient. Hay que poner las credenciales del proyecto en el .env
+
+La autenticacion sera con supabase, pero usando Google, se puede cambiar a lo que cada uno necesite, https://supabase.com/docs/guides/auth/social-login/auth-google
