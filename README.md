@@ -17,3 +17,6 @@ tank stank query https://tanstack.com/query/latest
 Queda hecho para que la base de datos se conecte con supabase, en utils/supabase.sever queda un SupabaseClient. Hay que poner las credenciales del proyecto en el .env
 
 La autenticacion sera con supabase, pero usando Google, se puede cambiar a lo que cada uno necesite, https://supabase.com/docs/guides/auth/social-login/auth-google
+
+en el env la database url, sale de connect/orm/Direct connection to the database. Used for migrations
+
